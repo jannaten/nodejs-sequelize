@@ -1,4 +1,4 @@
-import { Dialect } from 'sequelize';
+type Dialect = 'postgres' | 'mysql' | 'mariadb' | 'sqlite' | 'mssql';
 
 interface DbConfig {
   username: string;

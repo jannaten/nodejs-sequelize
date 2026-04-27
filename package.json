@@ -17,27 +17,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jannaten/nodejs-cdk.git"
+    "url": "git+https://github.com/jannaten/nodejs-sequelize.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/jannaten/nodejs-cdk/issues"
+    "url": "https://github.com/jannaten/nodejs-sequelize/issues"
   },
-  "homepage": "https://github.com/jannaten/nodejs-cdk#readme",
+  "homepage": "https://github.com/jannaten/nodejs-sequelize#readme",
   "dependencies": {
     "express": "^5.2.1",
     "pg": "^8.20.0",
     "pg-hstore": "^2.3.4",
-    "sequelize": "^6.37.8"
+    "sequelize": "^6.37.8",
+    "sequelize-cli": "^6.6.5"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
     "@types/node": "^25.6.0",
     "nodemon": "^3.1.14",
-    "sequelize-cli": "^6.6.5",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3"
   }
