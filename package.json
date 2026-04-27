@@ -41,6 +41,9 @@
     "url": "https://github.com/jannaten/nodejs-sequelize/issues"
   },
   "homepage": "https://github.com/jannaten/nodejs-sequelize#readme",
+  "overrides": {
+    "glob": "^13.0.0"
+  },
   "dependencies": {
     "express": "^5.2.1",
     "pg": "^8.20.0",
