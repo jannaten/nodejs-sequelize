@@ -5,7 +5,7 @@ import {
   CreationOptional,
   DataTypes,
   Sequelize,
-} from "sequelize";
+} from 'sequelize';
 
 class User extends Model<InferAttributes<User>, InferCreationAttributes<User>> {
   declare id: CreationOptional<number>;
@@ -55,8 +55,8 @@ module.exports = (sequelize: Sequelize, dataTypes: typeof DataTypes) => {
     },
     {
       sequelize,
-      tableName: "users",
-      modelName: "User",
+      tableName: 'users',
+      modelName: 'User',
     },
   );
 
